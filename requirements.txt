@@ -1,0 +1,4 @@
+fastai
+huggingface_hub
+plolty
+tqdm
