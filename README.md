@@ -8,7 +8,7 @@ The model's goal is to classify bee wings, which can assist in studying and pres
 
 ## Technical Details
 
-The model was trained using the Fastai API. Progressive image resize was employed throughout the training to enhance the model's performance. The model architecture used was ResNet18.
+The model was trained using the Fastai API. Progressive image resize was employed throughout the training to enhance the model's performance. The model architecture used was ResNet152.
 
 ## Dataset Normalization
 
@@ -35,8 +35,8 @@ To run the scripts in this repository, the following libraries need to be instal
 To clone and run this application, you'll need [Git](https://git-scm.com) and [Python](https://www.python.org/downloads/) installed on your computer. From your command line:
 
 ```
-$ git clone https://github.com/smaciu/bee-wings-classifier.git
-$ cd bee-wings-classifier
+$ git clone https://github.com/smaciu/beewings.git
+$ cd beewings
 $ pip install -r requirements.txt
 $ python predict.py path_to_your_image.jpg
 ```
@@ -46,8 +46,8 @@ To predict multiple images from folder:
 **prediction.csv** will be saved in the main repo folder with original image name, predicted country of orign and probability
 
 ```
-$ git clone https://github.com/smaciu/bee-wings-classifier.git
-$ cd bee-wings-classifier
+$ git clone https://github.com/smaciu/beewings.git
+$ cd beewings
 $ pip install -r requirements.txt
 $ python batch_predict.py path_to_your_folder_with_images
 
